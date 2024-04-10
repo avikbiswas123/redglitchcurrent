@@ -1,7 +1,7 @@
 *{
 
 
-    margin-top:1vh ;
+    margin:0vh ;
     
     
     
@@ -43,7 +43,7 @@
     
     
     }
-    ul li a:hover{
+    ul li a:hover,.sidemenu ul .close:hover{
     
     background-color: aqua;
     
@@ -53,6 +53,7 @@
     border-radius: 2vw;
     
     }
+    
     .hamburger{
     
     display: none;
@@ -69,6 +70,42 @@
     color: aliceblue;
     
     }
+    .sidemenu ul{
+
+
+display: flex;
+flex-direction: column;
+padding: 5vw;
+gap: 7vw;
+font-size: 5vw;
+justify-content: center;
+align-items: center;
+justify-content: flex-start;
+
+
+
+background:rgba(1, 1, 1, 0.695);
+
+
+    }
+    .sidemenu ul a,.sidemenu ul li i{
+
+
+color: aliceblue;
+
+    }
+    .sidemenu{
+position: relative;
+display: none;
+width: 100vw;
+height: auto;
+top: -10vw;
+z-index: 2000;
+
+
+    }
+
+
     @media only screen and (max-width: 900px){
     
     .hamburger{
