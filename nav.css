@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 *{
 
 
@@ -9,22 +10,27 @@
     }
     
     
-    
     nav{
-    position: relative;
+    position: fixed;
     display: flex;
     justify-content: space-around;
     align-items: center;
     top: 2vh;
+    
+    align-content: center;
+left: 5vw;
+
+
+width: 100vw;
     }
     .left{
     
-        font-weight: 800;
-        font-size: 4vw;
-    
-        background: linear-gradient(to right,green,red,green);
+        font-family: "Bebas Neue", sans-serif;
+        font-weight: 1000;
+        font-style: bold;
+        font-size: 6vw;
+        background: linear-gradient(to right,rgb(17, 170, 17),rgb(205, 58, 58),rgb(46, 208, 46));
         -webkit-background-clip: text;
-    
         color: transparent;
     }
     ul{
@@ -39,7 +45,7 @@
     text-decoration: none;
     padding: 2vw;
     
-    color: black;
+    color: aliceblue;
     
     
     }
@@ -95,13 +101,13 @@ color: aliceblue;
 
     }
     .sidemenu{
-position: relative;
+position: absolute;
 display: none; 
 width: 50vw;
 height: 100vh;
-top: -2vh;
+top: -1vh;
 z-index: 2000;
-right: -50vw;
+right: 0vw;
 
     }
    .sidemenu ul{
@@ -113,15 +119,21 @@ height: 100vh;
 
     }
 
+i{
 
+
+color: aliceblue;
+
+
+}
     @media only screen and (max-width: 900px){
     
     .hamburger{
-    
+     position: absolute;
     
     display: block;
-    
-    
+    left: 75vw;
+    top: .3vh;
     }
     .right{
     
@@ -133,15 +145,14 @@ height: 100vh;
     
     }
     
-    
-    
-    }
     .left{
 
 
+position: absolute;
+top: 1vh;
 
-position: sticky;
+left: 5vw;
 
-
-
+    }
+    
     }

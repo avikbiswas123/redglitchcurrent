@@ -1,0 +1,37 @@
+
+.slider{
+
+height: 39.5vh;
+width: 100vw;
+position: relative;
+display: flex;
+z-index: -9000;
+
+}
+.imagecontainer{
+
+position: absolute;
+z-index: -9000;
+height: 39.5vh;
+
+}
+.navholder{
+    position:absolute;
+    z-index: 1000;
+background: rgba(1,1,1,.695);
+height: 85vh;
+width: 100vw;
+}
+.image{
+
+display: none;
+z-index: -9000;
+
+}
+img{
+
+height: 85vh;
+object-fit: cover;
+
+width: 100vw;
+}
