@@ -6,6 +6,9 @@ width: 100vw;
 position: relative;
 display: flex;
 z-index: -9000;
+transition: all ease 1s;
+transform: rotateX(0deg) rotateY(0deg);
+perspective: 1000px;
 
 }
 .imagecontainer{

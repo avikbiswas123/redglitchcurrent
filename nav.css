@@ -29,7 +29,7 @@ width: 100vw;
         font-weight: 1000;
         font-style: bold;
         font-size: 6vw;
-        background: linear-gradient(to right,rgb(17, 170, 17),rgb(205, 58, 58),rgb(46, 208, 46));
+        background-color:cyan;
         -webkit-background-clip: text;
         color: transparent;
     }
@@ -156,3 +156,9 @@ left: 5vw;
     }
     
     }
+body{
+
+background-color: rgb(11, 11, 11);
+
+
+}
