@@ -16,4 +16,3 @@ function slide() {
     setTimeout(slide,2000)
     
 }
-console.log("%cFuck You! Bitch","@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');color:red;font-size:30px;font-family: \"Bebas Neue\", sans-serif;");

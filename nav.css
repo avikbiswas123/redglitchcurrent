@@ -4,8 +4,8 @@
 
     margin:0vh ;
     
-    
-    
+    padding: 0;
+    border: 0;
     
     }
     
@@ -28,7 +28,7 @@ width: 100vw;
         font-family: "Bebas Neue", sans-serif;
         font-weight: 1000;
         font-style: bold;
-        font-size: 6vw;
+        font-size: 4vw;
         background-color:cyan;
         -webkit-background-clip: text;
         color: transparent;
@@ -36,14 +36,14 @@ width: 100vw;
     ul{
     
     display: flex;
-    
-    font-size: 1.5vw;
+    gap: 3vw;
+    font-size: 1.2vw;
     list-style: none;
     }
     ul li a{
     
     text-decoration: none;
-    padding: 2vw;
+    padding: 1vw;
     
     color: aliceblue;
     
@@ -51,15 +51,22 @@ width: 100vw;
     }
     ul li a:hover,.sidemenu ul .close:hover{
     
-    background-color: aqua;
     
-    color: aliceblue;
+    
+    color: aqua;
     transition: all ease 1s;
-    box-shadow: 2vh 3vh 3vh black;
-    border-radius: 2vw;
-    
+    border-bottom: 2px solid aqua;
+    animation: hovereffect 1s linear;
     }
     
+    .active{
+
+        color: aqua;
+        transition: all ease 1s;
+        border-bottom: 2px solid aqua;
+
+
+    }
     .hamburger{
     
     display: none;
@@ -73,7 +80,8 @@ width: 100vw;
     transition: all ease 1s;
     background-color: aqua;
     padding: 2vw;
-    color: aliceblue;
+    color:aliceblue;
+    text-decoration: underline;
     
     }
     .sidemenu ul{
@@ -83,7 +91,7 @@ display: flex;
 flex-direction: column;
 padding: 5vw;
 gap: 7vw;
-font-size: 5vw;
+font-size: 3vw;
 justify-content: center;
 align-items: center;
 justify-content: flex-start;

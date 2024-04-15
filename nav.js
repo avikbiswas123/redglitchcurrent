@@ -20,3 +20,10 @@ console.log(side);
 side.style.display="none"
 menu.style.display="block"
 })
+let links=document.querySelector(".right ul li a ")
+links.addEventListener('click',(e)=>{
+console.log(e);
+
+
+
+})
