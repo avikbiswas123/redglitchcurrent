@@ -57,7 +57,50 @@ iframe{
     width: 90dvw;
 }
 nav{
-height: 4vh;
+height: 11.5vh;
 
+display: flex;
+align-items: center;
     background-color: rgb(11, 11, 11) ;
 }
+.left{
+
+top: .5vh;
+
+
+}
+@media only screen and (max-width: 900px){
+    
+    .hamburger{
+     position: absolute;
+    top: 5vh;
+    display: block;
+    left: 75vw;
+    
+    }
+    .right{
+    
+    
+    display: none;
+    
+    
+    
+    
+    }
+    nav{
+top: -4vh;
+height: 12vh;
+background-color:  rgb(11, 11, 11);
+
+    }
+    .left{
+
+
+position: absolute;
+
+top: 6vh;
+left: 5vw;
+
+    }
+    
+    }
