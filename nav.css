@@ -15,10 +15,10 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    top: 2vh;
     
+    background-color: rgb(11, 11, 11);
     align-content: center;
-left: 5vw;
+
 
 
 width: 100vw;
@@ -36,7 +36,7 @@ width: 100vw;
     ul{
     
     display: flex;
-    gap: 3vw;
+    gap: 1.9vw;
     font-size: 1.2vw;
     list-style: none;
     }
@@ -152,7 +152,12 @@ color: aliceblue;
     
     
     }
-    
+    nav{
+
+
+background-color:  rgb(11, 11, 11);
+
+    }
     .left{
 
 

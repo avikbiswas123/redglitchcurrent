@@ -1,6 +1,6 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 .slider{
-
+top: 10vh;
 height: 39.5vh;
 width: 100vw;
 position: relative;
@@ -22,7 +22,7 @@ height: 39.5vh;
     position:absolute;
     z-index: 1000;
 background: rgba(1,1,1,.695);
-height: 85vh;
+height: 95vh;
 width: 100vw;
 }
 .image{
@@ -37,4 +37,22 @@ height: 85vh;
 object-fit: cover;
 
 width: 100vw;
+}
+.promo{
+color: aliceblue;
+position: absolute;
+top: 30vh;
+z-index: 10000;
+left: 3vw;
+}
+.promo h1{
+
+
+font-size: 6vw;
+
+
+}
+.promo h3{
+font-size: 4vw;
+
 }
