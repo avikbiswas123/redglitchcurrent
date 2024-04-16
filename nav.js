@@ -24,12 +24,15 @@ let side=document.querySelector(".sidemenu")
 side.style.display="none"
 menu.style.display="block"
 })
+
+    
+
 let activepage=window.location.pathname
  console.log(activepage);
 let links=document.querySelectorAll(".right ul li a")
 links.forEach(i=>{
 
-if((i.href.includes(`${activepage}`)) && (i.href.endsWith(".html"))) {
+if((i.href.includes(`${activepage}`)) && (activepage.endsWith(".html"))) {
 
 console.log(`${activepage}`);
 i.classList.add("active")
