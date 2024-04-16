@@ -29,6 +29,9 @@ menu.style.display="block"
 
 let activepage=window.location.pathname
  console.log(activepage);
+ if (activepage==="/redglitchcurrent/") {
+    activepage==="/redglitchcurrent/index.html"
+ }
 let links=document.querySelectorAll(".right ul li a")
 links.forEach(i=>{
 
