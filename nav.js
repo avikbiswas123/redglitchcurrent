@@ -31,7 +31,7 @@ links.forEach(i=>{
 
 if(i.href.includes(`${activepage}`)){
 
-// console.log(`${activepage}`);
+console.log(`${activepage}`);
 i.classList.add("active")
 
 }
