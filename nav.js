@@ -29,7 +29,7 @@ let activepage=window.location.pathname
 let links=document.querySelectorAll(".right ul li a")
 links.forEach(i=>{
 
-if(i.href===activepage){
+if((i.href.includes(`${activepage}`)) && (i.href.endsWith(".html"))) {
 
 console.log(`${activepage}`);
 i.classList.add("active")
