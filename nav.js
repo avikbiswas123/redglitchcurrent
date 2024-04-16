@@ -1,29 +1,42 @@
 let menu=document.querySelector(".hamburger")
 let slider=document.querySelector(".slider")
-console.log(typeof(menu));
+// console.log(typeof(menu));
 menu.addEventListener('click',()=>{
 
 
 let side=document.querySelector(".sidemenu")
-console.log(side);
+// console.log(side);
 side.style.display="block"
 menu.style.display="none"
 slider.style.display="block"
+
+
+
+
+
 })
 let close=document.querySelector(".close")
 close.addEventListener("click",()=>{
 
 let side=document.querySelector(".sidemenu")
 
-console.log(side);
 
 side.style.display="none"
 menu.style.display="block"
 })
-let links=document.querySelector(".right ul li a ")
-links.addEventListener('click',(e)=>{
-console.log(e);
+let activepage=window.location.pathname
+// console.log(activepage);
+let links=document.querySelectorAll(".right ul li a")
+links.forEach(i=>{
+
+if(i.href.includes(`${activepage}`)){
+
+// console.log(`${activepage}`);
+i.classList.add("active")
+
+}
 
 
 
 })
+
