@@ -25,7 +25,7 @@ side.style.display="none"
 menu.style.display="block"
 })
 let activepage=window.location.pathname
-// console.log(activepage);
+ console.log(activepage);
 let links=document.querySelectorAll(".right ul li a")
 links.forEach(i=>{
 
