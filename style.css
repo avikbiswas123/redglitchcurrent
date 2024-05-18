@@ -5,7 +5,7 @@ height: 39.5vh;
 width: 100vw;
 position: relative;
 display: flex;
-z-index: -9000;
+z-index: -9500;
 transition: all ease 1s;
 transform: rotateX(0deg) rotateY(0deg);
 perspective: 1000px;
@@ -20,7 +20,7 @@ height: 39.5vh;
 }
 .navholder{
     position:absolute;
-    z-index: 1000;
+    z-index: -9000;
 background: rgba(1,1,1,.695);
 height: 95vh;
 width: 100vw;
@@ -42,7 +42,7 @@ width: 100vw;
 color: aliceblue;
 position: absolute;
 top: 30vh;
-z-index: 10000;
+z-index: -9000;
 left: 3vw;
 }
 .promo h1{
@@ -54,5 +54,34 @@ font-size: 6vw;
 }
 .promo h3{
 font-size: 4vw;
+
+}
+.about{
+
+color:whitesmoke;
+padding: 2vw;
+position: relative;
+top: 75vh;
+text-align: justify;
+left: 3vw;
+width: 90vw;
+border: 2px solid cyan;
+border-top: none;
+}
+.about h1{
+width: inherit;
+position: absolute;
+top: -10vh;
+border-top: 2px solid cyan;
+border-left: 2px solid cyan;
+border-right: 2px solid cyan;
+color: cyan;
+height: 10vh;
+left: -.1dvw;
+padding: 2vw;
+}
+body{
+
+overflow-x: hidden;
 
 }

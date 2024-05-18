@@ -9,13 +9,19 @@
     
     }
     
-    
+    .navindex{
+
+position: relative;
+z-index: 1000;
+
+
+    }
     nav{
     position: fixed;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    
+    z-index: 1000;
     background-color: rgb(11, 11, 11);
     
 
@@ -72,7 +78,7 @@ width: 100vw;
     display: none;
     padding: 2vw;
     
-    
+    cursor: pointer;
     
     }
     
@@ -121,7 +127,7 @@ right: 0vw;
    .sidemenu ul{
 
 
-
+cursor: pointer;
 height: 100vh;
 
 

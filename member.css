@@ -1,0 +1,22 @@
+.Utshoda{
+left: 3vw;
+position: absolute;
+top: 10vh;
+background-color:rgb(244, 243, 242);
+width: 300px;
+height: 500px;
+display: flex;
+justify-content: center;
+border-radius: 1vh;
+object-fit: fill;
+
+}
+.Utshoda img{
+
+width: 300px;
+height: 350px;
+left: -.03vw;
+top: 0vh;
+border-radius: 1vh;
+
+}
